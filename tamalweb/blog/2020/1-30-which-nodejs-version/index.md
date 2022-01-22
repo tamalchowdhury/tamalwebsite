@@ -7,8 +7,9 @@ tags: [nodejs]
 
 Today I am going to help you pick the correct version of Node JS to use. When you are just getting started and about to download Node JS, you will be presented with 2 confusing versions to choose from. It’s not a big of a deal but for public service here’s my simple answer:
 
-Pick Node 16 LTS
 Which Node JS version to use? **16 LTS. You should always use even-numbered versions marked LTS that says “Recommended for Most Users” on the download page. An even number Node version is 14.x.x LTS, 16.x.x LTS, 18.x.x LTS and so on that you should use when learning or deploying your project to a production environment.**
+
+<!-- truncate -->
 
 According to the Node JS blog, “If you are using Node.js in production use an LTS version. LTS release lines focus on stability, extended support and provide a reliable platform for applications of any scale. Most Node.js users and companies are on Long Term Support lines. For those that are currently using Node.js 4.x or Node.js 6.x, we recommend upgrading to Node.js 10” (Nodejs, 2018).
 

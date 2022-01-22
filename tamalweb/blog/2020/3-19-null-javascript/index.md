@@ -11,6 +11,8 @@ What is null in JavaScript? **null means no-value. When there is no value assign
 
 By the way, null is not exclusive to just JavaScript, I have seen it on Java, C#, SQL and it works the same way it does in JavaScript.
 
+<!-- truncate -->
+
 An object is a combination of primitive values like string, number, and boolean types. Since objects are special types of data, we also need a special concept of assigning no-values. This is where null comes in.
 
 In this article, I will tell all about the null type and how it works in JavaScript and programming in general. But before I can fully explain to you about the null type, let me give you an overview of the types in JavaScript.

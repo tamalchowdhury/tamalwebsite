@@ -11,6 +11,8 @@ So how to add the new Google Analytics 4 in Reactjs app? **You simply copy the G
 
 Yeah, I know right, it’s that obvious. I found it by trial and error. If you stick around, I will show you a step-by-step guide and also give you a glimpse at how did I figure it out.
 
+<!-- truncate -->
+
 ## Step-by-Step Guide to Adding Script Tag in Reactjs App
 
 Create a new property in Google Analytics.

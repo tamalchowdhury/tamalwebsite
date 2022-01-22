@@ -30,6 +30,7 @@ const config = {
         blog: {
           routeBasePath: '/',
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           editUrl: 'https://github.com/tamalweb/tamalwebsite',
         },
@@ -57,8 +58,13 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/tamalweb',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://linkedin.com/in/tamalweb',
+            label: 'Linkedin',
             position: 'right',
           },
         ],
