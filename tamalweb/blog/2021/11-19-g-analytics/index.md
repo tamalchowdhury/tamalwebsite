@@ -5,7 +5,7 @@ authors: tamalweb
 tags: [reactjs, google]
 ---
 
-You probably know about the react-ga npm package but the sad news is, it does not work with the latest Google Analytics 4 version. It works with the old UA-0000-01 tags, but not with the G-XXXXXX tags. I’m sure an updated version of the package will solve it, but for the time being, I found a better and a working method of adding GA to your React application. And it’s so obvious, you will feel like, “why didn’t I think about it before?”
+You probably know about the react-ga npm package but the sad news is, it does not work with the latest Google Analytics 4 version. It works with the old `UA-0000-01` tags, but not with the `G-XXXXXX` tags. I’m sure an updated version of the package will solve it, but for the time being, I found a better and a working method of adding GA to your React application. And it’s so obvious, you will feel like, "why didn’t I think about it before?"
 
 So how to add the new Google Analytics 4 in Reactjs app? **You simply copy the Google Analytics script tag into the `<head>` section of your index.html file in the public directory.**
 
@@ -25,7 +25,7 @@ Now after the setup, pick the “web” data stream.
 
 Enter your website URL and continue.
 
-Select the Global site tag (gtag.js) option and
+Select the Global site tag (`gtag.js`) option and
 
 copy the code.
 
@@ -91,12 +91,11 @@ Now Analytics will keep them.
 
 If you have come to the end of this post and it helped you with setting up Google Analytics with your React app, then please let me know by tweeting about it.
 
-I learned How to Add the New Google Analytics 4 in Reactjs AppCLICK TO TWEET
 It tells me that I have done a good job and will inspire me to share more cool stuff in the future.
 
 ## Key Takaways:
 
 - Add Google Analytics tag simply by pasting into the head section of index.html page.
-- The react-ga npm package still doesn’t work with the new G-XXXXX tags.
+- The react-ga npm package still doesn’t work with the new `G-XXXXX` tags.
 - Use gtag npm package to track custom events.
 - To persist the custom event parameters, you have to instruct GA.
