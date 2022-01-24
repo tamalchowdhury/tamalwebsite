@@ -19,7 +19,6 @@ const config = {
   presets: [
     [
       'classic',
-      { trackingID: 'UA-44799005-8', anonymizeIP: true },
 
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
