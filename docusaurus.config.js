@@ -29,6 +29,10 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} TamalWeb`,
+          },
           routeBasePath: '/',
           showReadingTime: true,
           blogSidebarCount: 'ALL',
@@ -53,14 +57,43 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            label: 'Start Web Dev',
+            to: '/start',
             position: 'left',
-            label: 'Tutorial',
           },
           {
-            href: 'https://github.com/tamalweb',
-            label: 'GitHub',
+            label: 'Resources',
+            to: '/resources',
+            position: 'left',
+          },
+          {
+            label: 'Portfolio',
+            to: '/portfolio',
+            position: 'left',
+          },
+          {
+            label: 'Work With Me',
+            to: '/work-with-me',
+            position: 'left',
+          },
+          {
+            label: 'Archive',
+            to: '/archive',
+            position: 'left',
+          },
+          {
+            label: 'About',
+            to: '/about',
+            position: 'left',
+          },
+          {
+            label: 'Contact',
+            to: '/contact',
+            position: 'left',
+          },
+          {
+            href: 'https://twitter.com/tamalweb',
+            label: 'Twitter',
             position: 'right',
           },
           {
@@ -74,11 +107,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Blog',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Blog Archive',
+                to: '/archive',
+              },
+              {
+                label: 'RSS',
+                href: '/rss.xml',
+              },
+              {
+                label: 'Atom',
+                href: '/atom.xml',
               },
             ],
           },
