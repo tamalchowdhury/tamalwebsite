@@ -48,3 +48,15 @@ Yeah looking into a new language/tech can give me a small boost of excitement, b
 So Tamal, don’t fall into the trap of seeking novelty in yet another shiny new thing. Stick to Node + JavaScript until you fully master it.
 
 I’m sure you won’t regret it!
+
+## Comments:
+
+**Ali**: This is so true
+Thanks for sharing your experience
+Your words resonated very well with me
+I myself am learning node but couldn’t get my head around JavaScript
+It has been a month in and I’m not comfortable at all with the syntax and concepts
+But I guess I should grind and go on
+
+> Tamal: Hi Ali, thanks for dropping by. If you want to work on the web, then JavaScript will help you a lot, so keep on grinding.
+> However since you are new to code, you can try out different things until you find one that best suits you.

@@ -35,7 +35,12 @@ You can insert this image in the src attribute in the img tag like this:
 <img src={like} alt="like icon" />
 ```
 
-When you import images this way, create-react-app (or webpack) will bundle all your images and try to best compress them. Don’t put your images in the public directory and hotlink them, unless you have a strong reason to do so (Hadar, 2021).
+When you import images this way, create-react-app (or webpack) will bundle all your images and try to best compress them.
+
+:::warning Note
+
+Don’t put your images in the `/public` directory and hotlink them, unless you have a strong reason to do so (Hadar, 2021).
+:::
 
 If your images are less than 10 kB (10,000 bytes) these images will be converted into inline base 64 strings. So they will load instantly (Llobera, 2020).
 
@@ -154,3 +159,39 @@ Till then start optimizing your react website and send me a tweet if you found t
 
 1. Hadar, A. (2021) Using the Public Folder, Retrieved December 4, 2021, from https://create-react-app.dev/docs/using-the-public-folder
 2. Llobera, L. (2020) Adding Images, Fonts, and Files, Retrieved Decmber 4, 2021, from https://create-react-app.dev/docs/adding-images-fonts-and-files
+
+## Comments:
+
+**Cindy Lam:** Hi Tamal, This is such a great and well-written article. I can tell you put a lot of effort and thoughts into writing this blog post. I really like the flow of the entire post. The use of screenshots and images are really helping you to tell your story. To me, as a reader, I do not feel exhausted reading through it and I even get some surprises like the “tweet” option for me to easily tweet what I have learned from your blog post to others. Fast and convenient! More importantly, I really like the “table of contents” and the recaps at the end of the blog post.
+
+Here are some of my opinions and suggestions that hopefully can help you out to improve the current blog post (I am just writing down what I hope to see as a reader when reading through the blog post):
+
+(1) The “Care Reaction” icon compression results in using TinyPNG and Webp methods – I know you have displayed screenshots regarding the file size of the care reaction before compression. I think it would be helpful to see this throughout all the other sections to see the progression of the compression. It gives readers more excitement when they are able to see the result immediately after reading sections 2 and 3.
+
+(2) Included the “Can I use” link for Webp and AVIF – ie, [can i use](https://caniuse.com/?search=webP%20image%20format) so the reader can click on the link and directly see the browser compatibility of these two image types.
+
+(3) For Josh’s blog post, I think it would be best if you could just link directly to the [“Abstraction with React”](https://www.joshwcomeau.com/performance/embracing-modern-image-formats/#abstraction-with-react). As a reader, I do not need to scroll all the way down to the source code.
+
+The above items are just my opinions and hopefully, they can be slightly helpful to you if you are looking for optimization.
+
+By the way, I have found a small typo in section 3 the last paragraph right after the bold text, you have Webp spelled incorrectly.
+
+Overall, I really enjoy reading this post and learning something new regarding image compression! Great post, Tamal!
+
+> Tamal: Hey Cindy, thank you for a very thoughtful comment.
+>
+> Let me write some quick responses to your points below:
+>
+> 1.  You are right. Gonna update with some more before/after screenshots.
+> 2.  Good idea! I am gonna put them.
+> 3.  Sure, will add the direct link.
+>     Typo: I intentionally wrote Weppy -it’s like a human-friendly >name of the technical WebP.
+
+**Jose Oropeza**: Excellent article Tamal. I honestly never considered image compression but will surely give this a try on a future project, specially since image quality is not compromised. Would love to see an article on best practices for optimizing gifs.
+
+> Tamal: Definitely! Google web dev recommends web video in place of gifs to save data. But I’ll def look into it.
+
+**Christiaan:** So if I understand it correctly all images below 10k are in lined. So in the last step both the PNG and webp are in lined.
+So aren’t you shipping 35Kb more in the last example?
+
+> Tamal: Only pngs are getting inlined, so in the last step, I am keeping both webp and png because of backwards compatibility.

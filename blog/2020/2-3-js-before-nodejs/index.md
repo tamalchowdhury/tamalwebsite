@@ -260,3 +260,9 @@ Node JS opens the world of possibilities by using a single language JavaScript f
 - Focus on the JavaScript specific concepts to have an easy time with Node
 - Build something! don’t worry, you will do just fine!
   Comment on this post and let me know what you think
+
+## Comments:
+
+**Leo**: I love your article, I already covered the basic js moving unto the intermediate and I study to be a full-stack js developer with react and node as my main target. Thanks again.
+
+**Adale**: I’ve been spinning my wheels looking at all these promises and courses online but very few take the time to explain things quickly and simply. I haven’t replied to a blog post in many years. I am so appreciative of what you do here. This site is a real resource. I will be taking your Udemy course recommendation.

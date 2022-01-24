@@ -109,3 +109,12 @@ Since then I made a new Bkash calculator with React:
 ![new calculator](./images/5.gif)
 
 I don’t have the live version up but you can have a look at the source code.
+
+## Comments:
+
+**Morol**: I still remember the days when you first launched this app. 🙂
+
+And this has been a pure roasting. 🙂
+
+> Tamal: Thank you for following me from those days buddy! One thing I regret is, there has been a huge gap from those days to recent times. I wish I stick with just one path.
+> Ohh yeah, I am thinking about roasting my own stuff from now on, whenever I can feel creative. Feels good to tinker with old stuff 😀

@@ -34,3 +34,15 @@ The site needs a loading indicator. Currently, the page stays dumb for a few sec
 When I shared the site with the dev community, people started to spam the site. This is the first time I went to a headless approach. My backend gets data pushed to it via REST API’s. I did not secure my API’s this means anyone can send a request to it and manipulate the database. This + not having any validations led to a lot of post spam.
 
 After a few days I dig into the code and added some validation mechanisms to the code.
+
+## Comments:
+
+**Christophe:** Hi Tamal,
+Reading your awesome blogposts.
+I following the same way as you. Learning the basics from a lot of (web)languages (html,css,JS,php,perl,Sass,…) and have experience with a lot of cms’systems like processwire, Drupal, Get Simple CMS, GRAV CMS, … the last 3 years Building WP websites and do small theme and plugin development work.
+I’m not an advanced programmer, but is difficult focus on one programming language.
+In the feature i will try do a different thing and will do more developing webapps. So with this in mind, trying learn NodeJS the last weeks.
+Searching the internet about NodeJS articles, bought a book about NodeJS and looking a lot of NodeJS video’s. At the moment i can build a (more advanced) ‘hello world’ app in NodeJS. I understand now what MEAN-stack is and other basic stuff. Explore the Express Generator and so on. But, there is a lot of work for me while developing like a pro. So i follow your blog with a lot of interest. Last but not least, sorry for my poor English ?
+Grtz from Belgium 😉
+
+> All the best Chris, try to stick to one language/tech. Node is very good, but it can be overwhelming. Just keep on grinding and building stuff.

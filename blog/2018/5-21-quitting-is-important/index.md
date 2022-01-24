@@ -66,3 +66,9 @@ Give it some reasonable timeframe like 6-12 months and a reasonable outcome. Wha
 ## Conclusion
 
 The idea of quiting is horrible, embarrassing, and scary. It makes you look like a looser to other people. But if you quit properly, you will be left with only the things that matter to you most.
+
+## Comments:
+
+**Shamim**: I still remember the days when I was doing a job in BJMC and later created a company in Dhaka. My friends were running the company but I felt i need to quit. So, I quit from BJMC and got busy with SEO & Internet Marketing stuff. 😉
+
+> You quit your govt job. That was a big choice.

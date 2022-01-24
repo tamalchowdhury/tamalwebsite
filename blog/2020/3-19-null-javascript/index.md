@@ -7,6 +7,8 @@ tags: [javascript]
 
 Every programming language has at least one bottom value but JavaScript has two: null and undefined (Crockford, 2017). We are going to focus on null for this article because there is so much that’s going on behind the scenes.
 
+![null js](./images/featured.png)
+
 What is null in JavaScript? **null means no-value. When there is no value assigned to an object variable, it means the object doesn’t exist. If you want to delete the contents of an object from memory, you would assign that object to null.**
 
 By the way, null is not exclusive to just JavaScript, I have seen it on Java, C#, SQL and it works the same way it does in JavaScript.

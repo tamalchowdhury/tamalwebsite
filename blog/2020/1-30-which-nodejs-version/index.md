@@ -7,6 +7,8 @@ tags: [nodejs]
 
 Today I am going to help you pick the correct version of Node JS to use. When you are just getting started and about to download Node JS, you will be presented with 2 confusing versions to choose from. It’s not a big of a deal but for public service here’s my simple answer:
 
+![featured](./images/featured.png)
+
 Which Node JS version to use? **16 LTS. You should always use even-numbered versions marked LTS that says “Recommended for Most Users” on the download page. An even number Node version is 14.x.x LTS, 16.x.x LTS, 18.x.x LTS and so on that you should use when learning or deploying your project to a production environment.**
 
 <!-- truncate -->
@@ -37,12 +39,15 @@ After 6 months, the odd numbered versions become unsupported, so there is no poi
 
 After the first 6 months have passed and library vendors have enough time to test and implement new features into their tools, the even number versions (12.x.x, 14.x.x, and 16.x.x) will enter the LTS or Long Term Support phase. By the time you get access to an LTS version, you can rest assured that all of your favorite NPM tools are tested and supported by this version of Node.
 
-node version timeline
+![node version timeline](./images/timeline.png)
+
 This LTS version will be further supported by the Open JS foundation for the next 30 months (2 and a half years). So if you are building a production application, you will get support for it for the next two years and more. The LTS version guarantees that the software will be maintained and critical bugs will be fixed during this period of time. The Node JS website states that “Production applications should only use Active LTS or Maintenance LTS releases” (Node JS org, 2020).
 
 This all means that if today you start learning with Node JS 16, you are good to deploy a production app with this version till March 2024.
 
-If today you start learning with Node JS 16, you are good to deploy a production app with this version till March 2024CLICK TO TWEET
+:::tip
+If today you start learning with Node JS 16, you are good to deploy a production app with this version till March 2024
+:::
 
 ## What goes into major Node releases?
 
@@ -66,6 +71,8 @@ Perhaps the most important update for a JavaScript developer is to be able to us
 
 ES6 introduced keywords like let and const, arrow functions, destructuring, template literals and many more. In today’s web development, it sucks not to be able to code in ES6. So if you come across a Node tutorial, make sure it’s using version 6 and up.
 
+![](./images/1.jpg)
+
 In fact, 99% of the modern JavaScript features are now supported with Node version 6 and up (Node.green, 2020).
 
 ### Node 8 implemented Async Await
@@ -81,48 +88,67 @@ If you worked with both React and Node, you will notice that in Node, you use th
 
 ## Can I install multiple Node versions on my computer?
 
-Yes, you can use the NVM Node Version Manager app to install and use multiple versions of the Node JS runtime environment. NVM lets you easily switch between Node versions on the fly in your local development machine.
+Yes, **you can use the NVM Node Version Manager app to install and use multiple versions of the Node JS runtime environment**. NVM lets you easily switch between Node versions on the fly in your local development machine.
 
 I was using the latest node version on my local computer then sometimes ago I was needed to use the old Node 8 version to run a particular project. I looked around and found NVM for windows.
 
-How to install NVM for Windows computers
-Go here to find the latest NVM for Windows releases. This is a separate project that lets Windows users use Node version manager.
+## How to install NVM for Windows computers
+
+Go here to [find the latest NVM for Windows](https://github.com/coreybutler/nvm-windows/releases) releases. This is a separate project that lets Windows users use Node version manager.
 
 At the time of writing this article, this is the latest version (the version you see may be different) but you will see a similar page:
 
-Click on the nvm-setup.zip and download the zip file. Unzip the folder and install the program.
+![](./images/2.png)
+
+Click on the **nvm-setup.zip** and download the zip file. Unzip the folder and install the program.
 
 After that, go to your terminal (I use the built-in terminal in VS code)
 
-Type in nvm -v to verify that NVM has been installed on your computer.
+Type in `nvm -v` to verify that NVM has been installed on your computer.
 
-Type in nvm list to list all the node versions you have installed on your computer.
+![](./images/3.png)
+
+Type in `nvm list` to list all the node versions you have installed on your computer.
+
+![](./images/4.png)
 
 At this point, it may show only one version of Node you have installed on your computer.
 
-To install a different version of Node JS, you can type in nvm install `<version_number>` like: nvm install 12.16.1
+To install a different version of Node JS, you can type in `nvm install <version_number>` like: `nvm install 12.16.1`
+
+![](./images/5.png)
+
+![](./images/6.png)
 
 You can check out this page to see all the previous Node JS versions.
 
-Once you have installed a new version using NVM, once again list them by typing nvm list.
+![](./images/7.png)
 
-Now you can select a particular Node version by typing: nvm use `<version>` like I did nvm use 8.9.4
+Once you have installed a new version using NVM, once again list them by typing `nvm list`.
 
-Now type in node -v to verify that you are indeed using a different Node JS version:
+![](./images/8.png)
+
+Now you can select a particular Node version by typing: `nvm use <version>` like I did `nvm use 8.9.4`
+
+![](./images/9.png)
+
+Now type in `node -v` to verify that you are indeed using a different Node JS version:
+
+![](./images/10.png)
 
 You can also see that you are using a different NPM version that comes with that particular node installation:
+
+![](./images/11.png)
 
 Now you can use a specific version that is required in your project.
 
 Did you know about NVM? Tweet this to your followers and let them know,
 
-You can run multiple versions of Nodejs using NVM (Node Version Manager) –makes the development easier!CLICK TO TWEET
-
 ## Final Words
 
 Node JS has two different audiences, the regular developers (us) and the open-source contributors (library authors). And for this reason, Node offers two different versions on their download page. For most cases, it’s safe to just go with the latest LTS version of the Node and if you are following a tutorial, just ask your instructor which version you should be using. Now that it’s the end of this article, here are a few things I want you to do:
 
-- Download the latest 14.x.x LTS version of Node
+- Download the latest 16.x.x LTS version of Node
 - Start building something
 
 ## References

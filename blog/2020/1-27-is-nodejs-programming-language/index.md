@@ -7,6 +7,8 @@ tags: [nodejs, explainer]
 
 Node is often compared with other backend languages such as PHP and Python, but is it actually a language? Today I am going to answer that question once and for all.
 
+![featured](./images/featured.png)
+
 Is Node JS a programming language? **Node JS is not a programming language, it uses JavaScript language as the main programming interface. Node is a desktop application (or runtime environment) that runs JavaScript files. It mainly reads and writes files on a computer/server and does networking.**
 
 <!-- truncate -->
@@ -28,6 +30,8 @@ I won’t go in much detail of how exactly the Node runtime works, but I can tel
 ## Why JavaScript was picked for the Node runtime?
 
 Ryan Dahl, the creator of Node, picked JavaScript as the language because it supports all the features he needed and a large number of developers already know how to write it. To build high performant server applications we should use the non-blocking event I/O model; luckily JavaScript is built in such a way that it already supports callbacks and events (Dahl, 2009).
+
+https://www.youtube.com/watch?v=EeYvFl7li9E
 
 To give you a clear example, let’s say I tell Node to write the user information in the database. Node will then send the request to the database. While the data is being written to the database, Node will not wait for it, instead, it will move on to the next task on the list. When the database gets back to Node, it will resume and do the appropriate action. This single attribute makes it possible to make faster and more efficient server applications.
 

@@ -50,3 +50,8 @@ Yeah baby, I am now a MERN stack developer.
 So what’s next?
 
 Let’s build more awesome stuff!!
+
+## Comments:
+
+**Navdeep Singh**: I can feel your excitement. Kudos to you bro. Keep it up.
+~ Stay Foolish, Stay Focused.
