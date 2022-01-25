@@ -38,7 +38,7 @@ const config = {
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           // Please change this to your repo.
-          editUrl: 'https://github.com/tamalweb/tamalwebsite',
+          editUrl: 'https://github.com/tamalweb/tamalwebsite/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
