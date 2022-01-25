@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[8824],{7528:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/google","name":"google","count":1,"permalink":"/tags/google"}')}}]);

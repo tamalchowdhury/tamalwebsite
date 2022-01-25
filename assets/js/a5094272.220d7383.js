@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[9385],{4134:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/opinion","name":"opinion","count":6,"permalink":"/tags/opinion"}')}}]);

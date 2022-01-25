@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[8194],{5604:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/projects","name":"projects","count":2,"permalink":"/tags/projects"}')}}]);
