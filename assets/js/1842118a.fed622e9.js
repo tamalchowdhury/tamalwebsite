@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[1887],{9844:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/reactjs","name":"reactjs","count":4,"permalink":"/tags/reactjs"}')}}]);

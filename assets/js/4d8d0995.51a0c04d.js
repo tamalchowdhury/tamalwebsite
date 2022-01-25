@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[3180],{1690:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/performance","name":"performance","count":1,"permalink":"/tags/performance"}')}}]);

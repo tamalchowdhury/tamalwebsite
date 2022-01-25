@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>TamalWeb Blog</title>
-        <link>https://tamalweb.com/</link>
+        <link>https://tamalweb.com/tamalwebsite/</link>
         <description>TamalWeb Blog</description>
         <lastBuildDate>Sat, 04 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <copyright>Copyright © 2022 TamalWeb</copyright>
         <item>
             <title><![CDATA[Best Practices on How to Compress Images For Reactjs]]></title>
-            <link>https://tamalweb.com/compress-images-reactjs</link>
+            <link>https://tamalweb.com/tamalwebsite/compress-images-reactjs</link>
             <guid>compress-images-reactjs</guid>
             <pubDate>Sat, 04 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[In this quick tutorial, I will walk you through some of the best ways you can compress images for Reactjs for huge performance wins.]]></description>
@@ -44,7 +44,7 @@ So aren’t you shipping 35Kb more in the last example?</p><blockquote><p>Tamal:
         </item>
         <item>
             <title><![CDATA[How to Add the New Google Analytics 4 in Reactjs App]]></title>
-            <link>https://tamalweb.com/google-analytics-with-reactjs</link>
+            <link>https://tamalweb.com/tamalwebsite/google-analytics-with-reactjs</link>
             <guid>google-analytics-with-reactjs</guid>
             <pubDate>Fri, 19 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[You probably know about the react-ga npm package but the sad news is, it does not work with the latest Google Analytics 4 version. It works with the old UA-0000-01 tags, but not with the G-XXXXXX tags. I’m sure an updated version of the package will solve it, but for the time being, I found a better and a working method of adding GA to your React application. And it’s so obvious, you will feel like, "why didn’t I think about it before?"]]></description>
@@ -62,7 +62,7 @@ So aren’t you shipping 35Kb more in the last example?</p><blockquote><p>Tamal:
         </item>
         <item>
             <title><![CDATA[What is null in JavaScript?]]></title>
-            <link>https://tamalweb.com/null-javascript</link>
+            <link>https://tamalweb.com/tamalwebsite/null-javascript</link>
             <guid>null-javascript</guid>
             <pubDate>Thu, 19 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Every programming language has at least one bottom value but JavaScript has two: null and undefined (Crockford, 2017). We are going to focus on null for this article because there is so much that’s going on behind the scenes.]]></description>
@@ -132,7 +132,7 @@ If this article helped you then feel free to leave a comment and let me know wha
         </item>
         <item>
             <title><![CDATA[What is Node JS? Explained in Simple Terms For Beginners]]></title>
-            <link>https://tamalweb.com/what-is-nodejs</link>
+            <link>https://tamalweb.com/tamalwebsite/what-is-nodejs</link>
             <guid>what-is-nodejs</guid>
             <pubDate>Thu, 27 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Node JS is the first backend platform I learned and it helped me build full-stack applications. In this article, I will talk a little about Node and the concepts that go around this runtime environment. So to answer your question in simple terms,]]></description>
@@ -141,7 +141,7 @@ If this article helped you then feel free to leave a comment and let me know wha
         </item>
         <item>
             <title><![CDATA[Should I Learn JavaScript Before Learning Node JS?]]></title>
-            <link>https://tamalweb.com/learn-javascript-before-nodejs</link>
+            <link>https://tamalweb.com/tamalwebsite/learn-javascript-before-nodejs</link>
             <guid>learn-javascript-before-nodejs</guid>
             <pubDate>Mon, 03 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Today I am going to help you save time and hassle by giving you a concrete answer whether you should learn JavaScript before learning Node JS or not. You have learned about Node JS and would like to dive in to become a backend developer. Since you asked, this means you don’t know JS or have little experience with it. Allow me to simplify this for you.]]></description>
@@ -271,7 +271,7 @@ Comment on this post and let me know what you think</li></ul><h2>Comments:</h2><
         </item>
         <item>
             <title><![CDATA[Which Node JS Version Should I Use?]]></title>
-            <link>https://tamalweb.com/which-nodejs-version</link>
+            <link>https://tamalweb.com/tamalwebsite/which-nodejs-version</link>
             <guid>which-nodejs-version</guid>
             <pubDate>Thu, 30 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Today I am going to help you pick the correct version of Node JS to use. When you are just getting started and about to download Node JS, you will be presented with 2 confusing versions to choose from. It’s not a big of a deal but for public service here’s my simple answer:]]></description>
@@ -282,7 +282,7 @@ fs is a built-in module in Node for reading and writing to the file system. In t
         </item>
         <item>
             <title><![CDATA[Why Express JS is Used in Node JS?]]></title>
-            <link>https://tamalweb.com/why-expressjs-in-nodejs</link>
+            <link>https://tamalweb.com/tamalwebsite/why-expressjs-in-nodejs</link>
             <guid>why-expressjs-in-nodejs</guid>
             <pubDate>Wed, 29 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Whenever you go out and try to learn how to configure a web server with Node JS, you will see that the first thing the instructor does is to install Express. Just like you, I always wondered why most people use Express JS and is there another way to build a server without it?]]></description>
@@ -292,7 +292,7 @@ Leave a comment on this post and let me know what you are going to build</p><h2>
         </item>
         <item>
             <title><![CDATA[How Much Time Does it Take to Learn Node JS for Beginners?]]></title>
-            <link>https://tamalweb.com/how-much-time-nodejs</link>
+            <link>https://tamalweb.com/tamalwebsite/how-much-time-nodejs</link>
             <guid>how-much-time-nodejs</guid>
             <pubDate>Tue, 28 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[You are just getting started with web development and wondering how much time it takes to learn Node JS to be able to build something, like a social network, a chat application, or a SaaS to put it out there. Or maybe you are just wondering what are the skills you will need to become job-ready within a few months time. Well, my friend, you are in luck because today I am going to tell you exactly how long it takes to become a full-stack developer using Node JS sharing my own learning experience.]]></description>
@@ -307,7 +307,7 @@ This was a fun project to do since I also learned how to deploy the project on t
         </item>
         <item>
             <title><![CDATA[Is Node JS a Programming Language?]]></title>
-            <link>https://tamalweb.com/is-nodejs-programming-language</link>
+            <link>https://tamalweb.com/tamalwebsite/is-nodejs-programming-language</link>
             <guid>is-nodejs-programming-language</guid>
             <pubDate>Mon, 27 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Node is often compared with other backend languages such as PHP and Python, but is it actually a language? Today I am going to answer that question once and for all.]]></description>
@@ -316,7 +316,7 @@ The creator of Node JS took the original JavaScript language and made a custom i
         </item>
         <item>
             <title><![CDATA[What Language Should I Learn to Build a Social Network?]]></title>
-            <link>https://tamalweb.com/what-language-for-social-network</link>
+            <link>https://tamalweb.com/tamalwebsite/what-language-for-social-network</link>
             <guid>what-language-for-social-network</guid>
             <pubDate>Sun, 26 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Today I am going to tell you what programming language you should learn if you want to build a social networking site like Twitter, Reddit, Facebook, or Instagram.]]></description>
@@ -324,7 +324,7 @@ The creator of Node JS took the original JavaScript language and made a custom i
         </item>
         <item>
             <title><![CDATA[How I made The Periodic Table with CSS Grid and React]]></title>
-            <link>https://tamalweb.com/periodic-table-reactjs</link>
+            <link>https://tamalweb.com/tamalwebsite/periodic-table-reactjs</link>
             <guid>periodic-table-reactjs</guid>
             <pubDate>Thu, 26 Dec 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[I was looking into the periodic table and trying to memorize all the elements in order. One afternoon I thought, hey can I make the periodic table with my current CSS skills?]]></description>
@@ -332,7 +332,7 @@ The creator of Node JS took the original JavaScript language and made a custom i
         </item>
         <item>
             <title><![CDATA[Fruit Ninja Random Fruit Facts API Built with Pure Node.js]]></title>
-            <link>https://tamalweb.com/fruit-ninja-facts</link>
+            <link>https://tamalweb.com/tamalwebsite/fruit-ninja-facts</link>
             <guid>fruit-ninja-facts</guid>
             <pubDate>Tue, 05 Nov 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[I started learning how to work with pure Node webserver (without Express or any other packages) The best way to solidify the learning is to build something with the knowledge. However, with the limited scope of the lesson, I couldn’t find a project to build.]]></description>
@@ -374,7 +374,7 @@ server.listen(3000, () =&gt; { console.log(&#x27;Server started&#x27;) })
         </item>
         <item>
             <title><![CDATA[These 7 Tips Will Make You A Super Productive Programmer]]></title>
-            <link>https://tamalweb.com/super-productive</link>
+            <link>https://tamalweb.com/tamalwebsite/super-productive</link>
             <guid>super-productive</guid>
             <pubDate>Thu, 26 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[These are some of the general programming tips I want to share with you. Some of these tips might sound trivial but they can sure help you be more productive. Here goes my 7 tips to help you become a super productive programmer.]]></description>
@@ -382,7 +382,7 @@ server.listen(3000, () =&gt; { console.log(&#x27;Server started&#x27;) })
         </item>
         <item>
             <title><![CDATA[How to Share Passwords With Your Developer]]></title>
-            <link>https://tamalweb.com/share-passwords-with-your-developer</link>
+            <link>https://tamalweb.com/tamalwebsite/share-passwords-with-your-developer</link>
             <guid>share-passwords-with-your-developer</guid>
             <pubDate>Mon, 22 Apr 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Sharing your password can put you in a lot of anxiety when working with a developer from sites like Fiverr and Upwork. Sharing passwords with a technical person is a common practice when it comes to outsourcing. But if done incorrectly, your passwords can be exposed to a third party or a hacker.]]></description>
@@ -390,7 +390,7 @@ server.listen(3000, () =&gt; { console.log(&#x27;Server started&#x27;) })
         </item>
         <item>
             <title><![CDATA[JavaScript Closure Quickly Explained]]></title>
-            <link>https://tamalweb.com/javascript-closure-quickly-explained</link>
+            <link>https://tamalweb.com/tamalwebsite/javascript-closure-quickly-explained</link>
             <guid>javascript-closure-quickly-explained</guid>
             <pubDate>Sun, 24 Feb 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[A closure happens when one function is inside another function, and the inner function wants to access a variable which belongs to the outer function.]]></description>
@@ -398,7 +398,7 @@ server.listen(3000, () =&gt; { console.log(&#x27;Server started&#x27;) })
         </item>
         <item>
             <title><![CDATA[How To Properly Handle Your User’s Passwords]]></title>
-            <link>https://tamalweb.com/how-to-properly-handle-your-users-passwords</link>
+            <link>https://tamalweb.com/tamalwebsite/how-to-properly-handle-your-users-passwords</link>
             <guid>how-to-properly-handle-your-users-passwords</guid>
             <pubDate>Mon, 07 Jan 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[What do you do with your user’s password? Do you store it into the database?]]></description>
@@ -425,7 +425,7 @@ var hashThePassword = function(password, salt) {
         </item>
         <item>
             <title><![CDATA[Specializing in JavaScript]]></title>
-            <link>https://tamalweb.com/specializing-in-javascript</link>
+            <link>https://tamalweb.com/tamalwebsite/specializing-in-javascript</link>
             <guid>specializing-in-javascript</guid>
             <pubDate>Mon, 05 Nov 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[For the last few weeks I have taken a deep dive into the JavaScript programming language. Earlier this year I decided to work with Node.js so that I can work on just one language for the front end and the back.]]></description>
@@ -433,7 +433,7 @@ var hashThePassword = function(password, salt) {
         </item>
         <item>
             <title><![CDATA[Thoughts after Building a Reddit Clone in MERN (Node & React)]]></title>
-            <link>https://tamalweb.com/thoughts-after-building-a-reddit-clone-in-mern-node-react</link>
+            <link>https://tamalweb.com/tamalwebsite/thoughts-after-building-a-reddit-clone-in-mern-node-react</link>
             <guid>thoughts-after-building-a-reddit-clone-in-mern-node-react</guid>
             <pubDate>Sat, 22 Sep 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[So last week I put together a reddit like site, a clone of reddit as you can say. This is my first MERN stack application I am putting out to the world. I pretty much did a rush work and cut a lot of corners, just to get it out there and see how it goes.]]></description>
@@ -447,7 +447,7 @@ Grtz from Belgium 😉</p><blockquote><p>All the best Chris, try to stick to one
         </item>
         <item>
             <title><![CDATA[Finally I got to Build a MERN Stack Application!]]></title>
-            <link>https://tamalweb.com/finally-i-got-to-build-a-mern-stack-application</link>
+            <link>https://tamalweb.com/tamalwebsite/finally-i-got-to-build-a-mern-stack-application</link>
             <guid>finally-i-got-to-build-a-mern-stack-application</guid>
             <pubDate>Sun, 16 Sep 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[For those who don’t know, MERN stands for Mongo database, Express framework, React.js framework and Node.js runtime environment. Together they create a software stack for building custom web application.]]></description>
@@ -456,7 +456,7 @@ Grtz from Belgium 😉</p><blockquote><p>All the best Chris, try to stick to one
         </item>
         <item>
             <title><![CDATA[Node.js is like My Wife and I am Getting Bored with Her :(]]></title>
-            <link>https://tamalweb.com/node-js-is-like-my-wife-and-i-am-getting-bored-with-her</link>
+            <link>https://tamalweb.com/tamalwebsite/node-js-is-like-my-wife-and-i-am-getting-bored-with-her</link>
             <guid>node-js-is-like-my-wife-and-i-am-getting-bored-with-her</guid>
             <pubDate>Thu, 06 Sep 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[As funny and absurd as it sounds, I think it’s a similar feeling. I chased node, I tried to figure it out. I dreamt of building stuff with node. Eventually I figure it out. I learned how to build stuff with it. Then slowly I got bored with it. Looks like the honeymoon period is over 🙁]]></description>
@@ -470,7 +470,7 @@ However since you are new to code, you can try out different things until you fi
         </item>
         <item>
             <title><![CDATA[Thoughts After Building a Twitter Clone in Node.js]]></title>
-            <link>https://tamalweb.com/thoughts-after-building-a-twitter-clone-in-node-js</link>
+            <link>https://tamalweb.com/tamalwebsite/thoughts-after-building-a-twitter-clone-in-node-js</link>
             <guid>thoughts-after-building-a-twitter-clone-in-node-js</guid>
             <pubDate>Mon, 27 Aug 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Last season I built a twitter clone in Node.js. It’s a social media web application built with Node.js, Express, Mongoose and Passport.js.]]></description>
@@ -478,7 +478,7 @@ However since you are new to code, you can try out different things until you fi
         </item>
         <item>
             <title><![CDATA[Why I am not a Fanboy of JavaScript]]></title>
-            <link>https://tamalweb.com/why-i-am-not-a-fanboy-of-javascript</link>
+            <link>https://tamalweb.com/tamalwebsite/why-i-am-not-a-fanboy-of-javascript</link>
             <guid>why-i-am-not-a-fanboy-of-javascript</guid>
             <pubDate>Sat, 25 Aug 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[JavaScript, I like it, I love to build things with it, but I am not a fanboy. JS is the de facto language of the web. The web browsers only understands JavaScript. For this reason, web developers all around the globe has to learn this language.]]></description>
@@ -486,7 +486,7 @@ However since you are new to code, you can try out different things until you fi
         </item>
         <item>
             <title><![CDATA[Deleting an Item From MongoDB Mongoose By User Permission]]></title>
-            <link>https://tamalweb.com/deleting-an-item-from-mongodb-mongoose-by-user-permission</link>
+            <link>https://tamalweb.com/tamalwebsite/deleting-an-item-from-mongodb-mongoose-by-user-permission</link>
             <guid>deleting-an-item-from-mongodb-mongoose-by-user-permission</guid>
             <pubDate>Thu, 07 Jun 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[The first thing you learn when building a web application is CRUD, Create Read, Update and Destroy. I was learning Node.js to build the backend of my application. The first few lessons were about creating data, and then editing it.]]></description>
@@ -513,7 +513,7 @@ However since you are new to code, you can try out different things until you fi
         </item>
         <item>
             <title><![CDATA[Things I Learned While Building a Personal Project]]></title>
-            <link>https://tamalweb.com/things-i-learned-while-building-a-personal-project</link>
+            <link>https://tamalweb.com/tamalwebsite/things-i-learned-while-building-a-personal-project</link>
             <guid>things-i-learned-while-building-a-personal-project</guid>
             <pubDate>Mon, 28 May 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Last week I ran into a real world problem.]]></description>
@@ -533,7 +533,7 @@ document.title = title
         </item>
         <item>
             <title><![CDATA[Quitting is important]]></title>
-            <link>https://tamalweb.com/quitting-is-important</link>
+            <link>https://tamalweb.com/tamalwebsite/quitting-is-important</link>
             <guid>quitting-is-important</guid>
             <pubDate>Mon, 21 May 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[We have limited hours everyday.]]></description>
@@ -549,7 +549,7 @@ Give it some reasonable timeframe like 6-12 months and a reasonable outcome. Wha
         </item>
         <item>
             <title><![CDATA[Roasting My First JavaScript App]]></title>
-            <link>https://tamalweb.com/roasting-my-first-javascript-app</link>
+            <link>https://tamalweb.com/tamalwebsite/roasting-my-first-javascript-app</link>
             <guid>roasting-my-first-javascript-app</guid>
             <pubDate>Thu, 26 Apr 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[It’s time I look back at one of my very first JavaScript work and roast it.]]></description>
@@ -571,7 +571,7 @@ Ohh yeah, I am thinking about roasting my own stuff from now on, whenever I can 
         </item>
         <item>
             <title><![CDATA[What Steve Jobs’ First iPhone Taught Me About Product Development]]></title>
-            <link>https://tamalweb.com/what-steve-jobs-first-iphone-taught-me-about-product-development</link>
+            <link>https://tamalweb.com/tamalwebsite/what-steve-jobs-first-iphone-taught-me-about-product-development</link>
             <guid>what-steve-jobs-first-iphone-taught-me-about-product-development</guid>
             <pubDate>Thu, 19 Apr 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Steve Jobs and his first iPhone changed everything. We were introduced to a new era. After the launch, every other phones were just a copy of the iphone. But I am not here to talk about the technological revolution of the smartphone industry.]]></description>
@@ -579,7 +579,7 @@ Ohh yeah, I am thinking about roasting my own stuff from now on, whenever I can 
         </item>
         <item>
             <title><![CDATA[I Never Thought I Would Become A Programmer One Day]]></title>
-            <link>https://tamalweb.com/i-never-thought-i-would-become-a-programmer-one-day</link>
+            <link>https://tamalweb.com/tamalwebsite/i-never-thought-i-would-become-a-programmer-one-day</link>
             <guid>i-never-thought-i-would-become-a-programmer-one-day</guid>
             <pubDate>Thu, 12 Apr 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Growing up I was just a regular boy. I was never good at science or maths. I like to break things apart, but I wont call myself a tech nerd. So how did a regular guy like me turn into a programmer, coding things from scratch?]]></description>

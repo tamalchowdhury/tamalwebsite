@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[9556],{3992:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/explainer","name":"explainer","count":7,"permalink":"/tags/explainer"}')}}]);

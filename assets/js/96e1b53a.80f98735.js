@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[3481],{9891:function(a){a.exports=JSON.parse('{"allTagsPath":"/tamalwebsite/tags","slug":"/tamalwebsite/tags/project","name":"project","count":5,"permalink":"/tamalwebsite/tags/project"}')}}]);

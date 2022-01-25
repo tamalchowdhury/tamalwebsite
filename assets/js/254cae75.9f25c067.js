@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[9164],{9087:function(a){a.exports=JSON.parse('{"allTagsPath":"/tamalwebsite/tags","slug":"/tamalwebsite/tags/opinion","name":"opinion","count":6,"permalink":"/tamalwebsite/tags/opinion"}')}}]);

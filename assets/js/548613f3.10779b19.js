@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[9970],{5018:function(t){t.exports=JSON.parse('{"allTagsPath":"/tamalwebsite/tags","slug":"/tamalwebsite/tags/productivity","name":"productivity","count":1,"permalink":"/tamalwebsite/tags/productivity"}')}}]);

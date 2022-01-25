@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktamalweb=self.webpackChunktamalweb||[]).push([[597],{948:function(e){e.exports=JSON.parse('{"permalink":"/tamalwebsite/","page":1,"postsPerPage":10,"totalPages":3,"totalCount":28,"previousPage":null,"nextPage":"/tamalwebsite/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
