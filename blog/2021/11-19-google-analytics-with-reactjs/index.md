@@ -1,5 +1,5 @@
 ---
-slug: ga-reactjs
+slug: google-analytics-with-reactjs
 title: How to Add the New Google Analytics 4 in Reactjs App
 authors: tamalweb
 tags: [reactjs, google]
