@@ -56,8 +56,6 @@ Did you know about the inline image thing? I didn’t. Tweet this to your follow
 
 :::tip
 If your image is under 10 kB, Create React App will turn them into base64 data strings, making them load instantly!
-
-<a href={`https://twitter.com/intent/tweet?url=${document.location.origin + document.location.pathname}&text=If your image is under 10 kB, Create React App will turn them into base64 data strings, making them load instantly! via @tamalweb`}>Tweet</a>
 :::
 
 To further compress these source images, we have to optimize them ourselves,
