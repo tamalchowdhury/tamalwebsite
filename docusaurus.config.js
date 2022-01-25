@@ -57,26 +57,26 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            label: 'Start Web Dev',
-            to: '/start',
-            position: 'left',
-          },
+          // {
+          //   label: 'Start Web Dev',
+          //   to: '/start',
+          //   position: 'left',
+          // },
           {
             label: 'Resources',
             to: '/resources',
             position: 'left',
           },
-          {
-            label: 'Portfolio',
-            to: '/portfolio',
-            position: 'left',
-          },
-          {
-            label: 'Work With Me',
-            to: '/work-with-me',
-            position: 'left',
-          },
+          // {
+          //   label: 'Portfolio',
+          //   to: '/portfolio',
+          //   position: 'left',
+          // },
+          // {
+          //   label: 'Work With Me',
+          //   to: '/work-with-me',
+          //   position: 'left',
+          // },
           {
             label: 'Archive',
             to: '/archive',
