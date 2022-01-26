@@ -57,11 +57,11 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   label: 'Start Web Dev',
-          //   to: '/start',
-          //   position: 'left',
-          // },
+          {
+            label: 'Start Web Dev',
+            to: '/start',
+            position: 'left',
+          },
           {
             label: 'Resources',
             to: '/resources',

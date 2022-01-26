@@ -4,6 +4,8 @@ title: Start Web Dev
 
 # Start Web Dev
 
+If you are new to web development, this page will help you get started. It's not a step-by-step tutorial, but a general guideline of things that I learned over the course of many years.
+
 :::info The goal of this page
 I want to help you with a nice productive setup, so there will be fewer frustrations and more happy coding.
 :::
@@ -98,7 +100,7 @@ If you don't see the bg changing, that means there is a problem in linking the s
 
 The same goes for JavaScript files.
 
-After creating a linking your new JS file, add this hello world alert into the code:
+After creating and linking your new JS file, add this hello world alert into the code:
 
 ```js title=script.js
 alert('Hello World')
@@ -144,12 +146,58 @@ You wanna show your work to your friends. While codepen is good for this, it's m
 
 Github is the first entry point you should think of when hosting your basic frontend code.
 
-Create a new repository, give it a proper name.
+Initialize a git repo for your project.
 
-Now follow these instructions:
+Click on the git icon and initialize a repository.
 
-Open your VS Code terminal and now enter these lines one by one.
+![init git](./images/9.png)
+
+:::info
+When you initialize a new git repo, it will create a new `.git` hidden folder in the project directory. It's a config system to keep track of your file changes within your computer.
+:::
+
+Now add a commit message and commit your file changes to git by pressing the ☑ checkmark.
+
+![commit](./images/10.png)
+
+When you commit, it means you are tracking these files, or in other words, saving your progress.
+
+The git part is done, you have to go to github.com for hosting your code, so we can publish your work.
+
+:::info
+Git is a version control system while Github is an online service to host and view your git visually.
+:::
+
+[Create a new repository](https://github.com/new), give it a proper name.
+
+After you create a repo, it will provide you some instructions.
+
+![push repo](./images/12.png)
+
+Since we already created the repo, we just need to push it.
+
+Come back to your VS code window, and bring open the terminal.
+
+![terminal in vs code](./images/11.gif)
+
+Open your VS Code terminal and now enter these lines one by one you got when creating a new repo.
+
+![push repo](./images/12.png)
 
 This is where Git SCM we installed earlier comes in handy.
+
+![](./images/13.png)
+
+Refresh your github repo page and verify that you have successfully uploaded the files:
+
+![](./images/14.png)
+
+Got to settings > Pages > select the branch `main` and save to enable github pages service.
+
+![](./images/15.png)
+
+You should see your site live within a few minutes in this new address.
+
+![](./images/16.png)
 
 Setup github pages and you can have your work ready for the world to see in this new address.
