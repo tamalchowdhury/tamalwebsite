@@ -29,6 +29,9 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        sitemap: {
+          changefreq: 'daily',
+        },
         blog: {
           feedOptions: {
             type: 'all',
@@ -115,12 +118,16 @@ const config = {
                 to: '/archive',
               },
               {
+                label: 'Sitemap',
+                href: 'https://tamalweb.com/sitemap.xml',
+              },
+              {
                 label: 'RSS',
-                href: '/rss.xml',
+                href: 'https://tamalweb.com/rss.xml',
               },
               {
                 label: 'Atom',
-                href: '/atom.xml',
+                href: 'https://tamalweb.com/atom.xml',
               },
             ],
           },
