@@ -143,6 +143,14 @@ const config = {
                 label: 'Periodic Table',
                 href: 'https://periodictable.website',
               },
+              {
+                label: 'Cashout Charge',
+                href: 'https://cashoutcharge.com',
+              },
+              {
+                label: 'Hide YouTube Endscreen',
+                href: 'https://chrome.google.com/webstore/detail/hide-youtube-endscreen/ifmbbceocmponbpifmpkkhnidmgopmmf?hl=en',
+              },
             ],
           },
           {
