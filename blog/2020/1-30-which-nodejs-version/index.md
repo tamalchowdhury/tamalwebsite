@@ -150,6 +150,7 @@ Node JS has two different audiences, the regular developers (us) and the open-so
 
 - Download the latest 16.x.x LTS version of Node
 - Start building something
+- Check out the [resources page](/resources) if you want to learn more about Node
 
 ## References
 

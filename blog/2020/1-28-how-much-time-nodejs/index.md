@@ -111,7 +111,7 @@ Now that you have the tips to learn Node in record time, let me share some next 
 ## Next Steps
 
 - Decide what you want to build with Node JS
-- Find a course that shows you how to do it and finish the entire course
+- Check the [resources page](/resources) if you are looing for a node course
 - Build lots of practice projects and learn from doing
 
 ## Comments:

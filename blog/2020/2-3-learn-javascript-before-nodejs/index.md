@@ -256,10 +256,9 @@ module.exports = router
 
 Node JS opens the world of possibilities by using a single language JavaScript for both the front end and the back. With a solid foundation in programming concepts and JavaScript, you can be a pro in Node JS in no time. If you already have the foundation covered, I suggest you take on a Node course and learn JavaScript as you go. On the other side, if JS is your first language or you are out of touch for many years, then go and brush up the concepts mentioned in this article. Even if you do go out and spend extra time learning the ropes of JavaScript, the time will be spent well because it’s a great language to keep on your arsenal. That being said, here are some final tips I want to share with you.
 
-- Get the programming basics down first, take a course if you have to
+- Get the programming basics down first, [take a course](/resources) if you have to
 - Focus on the JavaScript specific concepts to have an easy time with Node
 - Build something! don’t worry, you will do just fine!
-  Comment on this post and let me know what you think
 
 ## Comments:
 

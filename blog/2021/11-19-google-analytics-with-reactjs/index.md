@@ -120,3 +120,5 @@ It tells me that I have done a good job and will inspire me to share more cool s
 - The react-ga npm package still doesn’t work with the new `G-XXXXX` tags.
 - Use gtag npm package to track custom events.
 - To persist the custom event parameters, you have to instruct GA.
+
+Since we are talking about React, check out [best practices of compressing images for React](/compress-images-reactjs).

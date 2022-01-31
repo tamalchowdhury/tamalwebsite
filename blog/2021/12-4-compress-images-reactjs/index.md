@@ -11,7 +11,7 @@ In this quick tutorial, I will walk you through some of the best ways you can co
 
 As you can see on the cover image, the original file was 65 kB, and after compression, I got it down to 5 KB, that’s over 80% saving for just one image file.
 
-This file is from one of my side projects ReactionPoll, where I make use of a bunch of Facebook and Linkedin reaction icons. My original reaction set for Facebook was 155 kB and after optimizing them, I got it to just 35 kB!
+This file is from one of my side projects [ReactionPoll](https://reactionpoll.com), where I make use of a bunch of Facebook and Linkedin reaction icons. My original reaction set for Facebook was 155 kB and after optimizing them, I got it to just 35 kB!
 
 <!-- truncate -->
 
@@ -21,7 +21,7 @@ Let’s begin with the obvious,
 
 The first quick win is to always import your images in your source code.
 
-Add the images into the src directory. For me, I created a folder called img inside the src folder and put all the image assets inside.
+Add the images into the src directory. For me, I created a folder called `img` inside the src folder and put all the image assets inside.
 
 Now from your component files, just type in
 
@@ -56,13 +56,15 @@ Did you know about the inline image thing? I didn’t. Tweet this to your follow
 
 :::tip
 If your image is under 10 kB, Create React App will turn them into base64 data strings, making them load instantly!
+
+[CLICK TO TWEET](https://twitter.com/intent/tweet?url=https://tamalweb.com/compress-images-reactjs&text=If%20your%20image%20is%20under%2010%20kB,%20Create%20React%20App%20will%20turn%20them%20into%20base64%20data%20strings,%20making%20them%20load%20instantly!%20via%20@tamalweb)
 :::
 
 To further compress these source images, we have to optimize them ourselves,
 
 ## Compress Your Source Images Using TinyPNG
 
-TinyPNG is an online tool I use to compress images. Usually optimized PNG and JPGs have a small file size already, but when I run these images against this free tool, I get surprised that it squeezes up even more.
+[TinyPNG](https://tinypng.com) is an online tool I use to compress images. Usually optimized PNG and JPGs have a small file size already, but when I run these images against this free tool, I get surprised that it squeezes up even more.
 
 ![tiny png](./images/3.jpg)
 
@@ -99,7 +101,7 @@ import likeWebp from '../img/src/like.webp'
 </picture>
 ```
 
-I learned how to use this trick + how to use a reusable react component to automate the process using Josh’s blog post.
+I learned how to use this trick + how to use a reusable react component to automate the process using [Josh’s blog post](https://www.joshwcomeau.com/performance/embracing-modern-image-formats/#abstraction-with-react).
 
 Basically what he did was create a component called `ImgWithFallback`
 
@@ -152,6 +154,8 @@ Till then start optimizing your react website and send me a tweet if you found t
 - Always import your images in reactjs
 - Compress your assets using a tool like TinyPNG (it also works with jpegs)
 - Use webp and avif image formats for fast loading but also have fallbacks for the browsers that don’t support them
+
+Check out adding [Google Analytics 4 in ReactJS](/google-analytics-with-reactjs)
 
 ## References
 
