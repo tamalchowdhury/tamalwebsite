@@ -3,6 +3,7 @@ slug: is-nodejs-programming-language
 title: Is Node JS a Programming Language?
 authors: tamalweb
 tags: [nodejs, explainer]
+image: ./images/featured.png
 ---
 
 Node is often compared with other backend languages such as PHP and Python, but is it actually a language? Today I am going to answer that question once and for all.

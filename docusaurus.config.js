@@ -6,7 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TamalWeb',
+  title:
+    'TamalWeb',
   tagline: 'Helping you become a dangerous frontend engineer',
   url: 'https://tamalweb.com',
   baseUrl: '/',
@@ -33,6 +34,10 @@ const config = {
           changefreq: 'daily',
         },
         blog: {
+          blogTitle:
+            'TamalWeb, Frontend Engineer, Reactjs Technical Writer, Developer Advocate',
+          blogDescription:
+            'Read articles, and learn best practices about ReactJS, NodeJS, be a great web dev. Contact or hire Tamal for your next project',
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} TamalWeb`,

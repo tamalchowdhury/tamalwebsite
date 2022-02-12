@@ -3,6 +3,7 @@ slug: compress-images-reactjs
 title: Best Practices on How to Compress Images For Reactjs
 authors: tamalweb
 tags: [reactjs, performance]
+image: ./images/compress-images.png
 ---
 
 In this quick tutorial, I will walk you through some of the best ways you can compress images for Reactjs for huge performance wins.

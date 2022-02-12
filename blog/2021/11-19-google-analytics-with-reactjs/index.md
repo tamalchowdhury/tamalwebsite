@@ -3,6 +3,7 @@ slug: google-analytics-with-reactjs
 title: How to Add the New Google Analytics 4 in Reactjs App
 authors: tamalweb
 tags: [reactjs, google]
+image: ./images/featured.png
 ---
 
 You probably know about the react-ga npm package but the sad news is, it does not work with the latest Google Analytics 4 version. It works with the old `UA-0000-01` tags, but not with the `G-XXXXXX` tags. I’m sure an updated version of the package will solve it, but for the time being, I found a better and a working method of adding GA to your React application. And it’s so obvious, you will feel like, "why didn’t I think about it before?"

@@ -3,6 +3,7 @@ slug: which-nodejs-version
 title: Which Node JS Version Should I Use?
 authors: tamalweb
 tags: [nodejs]
+image: ./images/featured.png
 ---
 
 Today I am going to help you pick the correct version of Node JS to use. When you are just getting started and about to download Node JS, you will be presented with 2 confusing versions to choose from. It’s not a big of a deal but for public service here’s my simple answer:

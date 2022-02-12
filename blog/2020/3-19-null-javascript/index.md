@@ -3,6 +3,7 @@ slug: null-javascript
 title: What is null in JavaScript?
 authors: tamalweb
 tags: [javascript]
+image: ./images/featured.png
 ---
 
 Every programming language has at least one bottom value but JavaScript has two: null and undefined (Crockford, 2017). We are going to focus on null for this article because there is so much that’s going on behind the scenes.
