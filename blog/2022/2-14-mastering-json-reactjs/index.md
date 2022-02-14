@@ -79,21 +79,40 @@ const person = {
 
 Let's talk about what are some basic operations with this format in Reactjs,
 
-How to Read JSON Data in React?
+## How to Read JSON Data in React?
 
-To read data from JSON, you have to convert it into an object using the JSON.parse() method. When you receive some JSON from an API or from a file, it's like a long piece of text (String data).
+To read data from JSON, you have to convert it into an object using the `JSON.parse()` method. When you receive some JSON from an API or from a file, it's like a long piece of text (String data).
 
-Since every JSON data is wrapped around a pair of curly braces {}, JSON.parse() will always return an object with properties you have to access.
+Since every JSON data is wrapped around a pair of curly braces `{ }`, **JSON.parse()** will always return an object with properties you have to access.
 
-Here's how to read data from JSON:
+Imagine you got this JSON from an API:
 
-fetch().then(res => res.json())
+**Step 1:** Parse it,
+
+```js
+const data = JSON.parse(jsonString)
+```
+
+This will create a new object and save it into the `data` constant.
+
+:::info
+**parse** is a computer science word for changing some data into machine readable format.
+:::
+
+**Step 2:** access it's properties,
+
+```js
+console.log(data.name)
+// >> "Jason Voorhees"
+```
 
 When you get a response back from the server, often times the response data also contains a few header info like status, messages, etc.
 
 It depends on how the API designer has created the JSON response. There will be a data property with the actual data you are looking for.
 
-Tip: Since JSON responses can vary from API to API, it's advised to do a console.log() to check the shape of the JSON response. You can also open it on a new tab and explore it using a browser extension called JSON Viewer.
+:::tip
+Since JSON responses can vary from API to API, it's advised to do a `console.log()` to check the shape of the JSON response. You can also open it on a new tab and explore it using a browser extension called **JSON Viewer**.
+:::
 
 Here, I am calling this example API, getting the JSON response back, and converting it to an object by parsing it.
 
@@ -103,7 +122,7 @@ How do I Show JSON in Reactjs?
 
 To show JSON data in Reactjs, you have to store the parsed data in your local state and let the app handle the display of the data. Often times when we get some data back from the API, the data is an array of objects. We can cycle through each of the objects using the Array.map() method and display them with our own react component.
 
-{items.map(item => <Component key={item.slug} slug={item.slug} title={item.title} />)}
+`{items.map(item => <Component key={item.slug} slug={item.slug} title={item.title} />)}`
 
 This is a common pattern you will see in React: get the data in JSON, convert data array in the local state, then React will render the components using the map method.
 
