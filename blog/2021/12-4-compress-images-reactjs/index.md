@@ -55,10 +55,11 @@ But when your images are over 10 KB, for example, this care reaction icon is 14 
 
 Did you know about the inline image thing? I didn’t. Tweet this to your followers,
 
-:::tip
+:::info Tweet Worthy
 If your image is under 10 kB, Create React App will turn them into base64 data strings, making them load instantly!
 
-[CLICK TO TWEET](https://twitter.com/intent/tweet?url=https://tamalweb.com/compress-images-reactjs&text=If%20your%20image%20is%20under%2010%20kB,%20Create%20React%20App%20will%20turn%20them%20into%20base64%20data%20strings,%20making%20them%20load%20instantly!%20via%20@tamalweb)
+[![click to tweet button](./images/click-to-tweet.png)](https://twitter.com/intent/tweet?url=https://tamalweb.com/compress-images-reactjs&text=If%20your%20image%20is%20under%2010%20kB,%20Create%20React%20App%20will%20turn%20them%20into%20base64%20data%20strings,%20making%20them%20load%20instantly!%20via%20@tamalweb)
+
 :::
 
 To further compress these source images, we have to optimize them ourselves,
@@ -157,6 +158,13 @@ Till then start optimizing your react website and send me a tweet if you found t
 - Use webp and avif image formats for fast loading but also have fallbacks for the browsers that don’t support them
 
 Check out adding [Google Analytics 4 in ReactJS](/google-analytics-with-reactjs)
+
+:::info Sharing is Caring
+I learned some Best Practices on How to Compress Images For Reactjs
+
+[![click to tweet button](./images/click-to-tweet.png)](https://twitter.com/intent/tweet?url=https://tamalweb.com/compress-images-reactjs&text=I%20learned%20some%20Best%20Practices%20on%20How%20to%20Compress%20Images%20For%20Reactjs&20via%20@tamalweb)
+
+:::
 
 ## References
 
