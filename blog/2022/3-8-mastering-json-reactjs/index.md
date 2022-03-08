@@ -3,9 +3,12 @@ title: Mastering JSON in ReactJS
 slug: json-reactjs
 authors: tamalweb
 tags: [reactjs]
+image: ./images/feature.png
 ---
 
 When building web apps, you will come across dynamic data created by your app or fetched by a third-party API. JSON is the universal data format for software, so if you master JSON, you will be a dangerous frontend engineer.
+
+![mastering json in react](./images/feature.png)
 
 My article is all about mastering JSON with ReactJS so strap in!
 
@@ -271,3 +274,11 @@ Let's say you are building a bible verses app.
 Having the entire bible in a JSON would take a lot of disk storage and can hamper the loading times.
 
 You can have a small section already loaded into your app from file and whenever the user requests more verses, you can call them on demand from the API.
+
+## Conclusion:
+
+To recap what we learned in this post,
+
+- Convert JSON string to object using `JSON.parse()`
+- Convert a data object into JSON string with `JSON.stringify()`
+- Create React App can automatically convert a json to object when you import a .json file
