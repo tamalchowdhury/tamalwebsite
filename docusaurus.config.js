@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title:
-    'TamalWeb',
+  title: 'TamalWeb',
   tagline: 'Helping you become a dangerous frontend engineer',
   url: 'https://tamalweb.com',
   baseUrl: '/',
@@ -106,6 +105,11 @@ const config = {
             position: 'right',
           },
           {
+            href: 'https://www.youtube.com/channel/UCEJ2rjHEplRyatAqWPWp2QQ',
+            label: 'YouTube',
+            position: 'right',
+          },
+          {
             href: 'https://linkedin.com/in/tamalweb',
             label: 'Linkedin',
             position: 'right',
@@ -164,6 +168,10 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/tamalweb',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCEJ2rjHEplRyatAqWPWp2QQ',
               },
               {
                 label: 'Github',
