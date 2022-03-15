@@ -4,6 +4,10 @@ title: Legacy Portfolio
 
 # Legacy Portfolio
 
+[Portfolio](/portfolio) > Legacy Portfolio
+
+These are some of my best work out of the 100+ client sites I built over the years. Most of them were built using WordPress and CSS customization on exiting themes.
+
 ![](./images/1.jpg)
 ![](./images/2.jpg)
 ![](./images/3.jpg)
@@ -25,3 +29,5 @@ title: Legacy Portfolio
 ![](./images/19.jpg)
 ![](./images/20.jpg)
 ![](./images/21.jpg)
+
+Go back to my [portfolio page](/portfolio)

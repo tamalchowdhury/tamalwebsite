@@ -74,11 +74,11 @@ const config = {
             to: '/resources',
             position: 'left',
           },
-          // {
-          //   label: 'Portfolio',
-          //   to: '/portfolio',
-          //   position: 'left',
-          // },
+          {
+            label: 'Portfolio',
+            to: '/portfolio',
+            position: 'left',
+          },
           // {
           //   label: 'Work With Me',
           //   to: '/work-with-me',

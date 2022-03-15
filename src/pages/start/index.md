@@ -16,7 +16,7 @@ I want to help you with a nice productive setup, so there will be fewer frustrat
 
 2. [Node.js](https://nodejs.org/) (download the LTS version) -it's an engine that will help you run modern web development tooling.
 
-3. If you are using Windows operating system, then download and install [Git SCM](https://git-scm.com/) for your computer.
+3. If you are using Windows operating system, then download and install [Git SCM](https://git-scm.com/) for your computer. This will install Git and the BASH terminal in your computer.
 
 You should be able to install the above software yourself, after all, you are the techy. If you run into an issue, Google and YouTube to troubleshoot.
 
@@ -34,9 +34,11 @@ Type in a `!` to autofill with HTML boilerplate code.
 
 ![bang shortcut](./images/bang.gif)
 
-This is a snippet shortcut comes for the default emmet plugin. I suggest you check out this [emmet cheat sheet](https://docs.emmet.io/cheat-sheet/) to learn some basic shortcuts.
+This is a snippet shortcut which comes from the default emmet plugin. I suggest you check out this [emmet cheat sheet](https://docs.emmet.io/cheat-sheet/) to learn some basic shortcuts.
 
 ## Live Preview your Changes
+
+**Watch the video: [Live Preview your HTML, CSS, JS when Developing](https://www.youtube.com/watch?v=i6EMMG6Hmjs)**
 
 Saving a file and refreshing your browser is a pain. So we have tools that help us do the live preview.
 
@@ -55,6 +57,8 @@ If you are using a single monitor like me, I recommend you split your code edito
 ![split preview](./images/4.jpg)
 
 ## Auto Format Your Code
+
+**Watch the video: [Auto Indent & Format Your Code on Save with Prettier](https://www.youtube.com/watch?v=dZU2HsrlGZ4)**
 
 Having good code formatting makes your code organized and professional.
 
@@ -142,6 +146,8 @@ It's easier for your developer friends to look and poke around the code.
 
 ## Publish Your Website
 
+**Watch the video: [Publish Your Personal Portfolio Site Online with Github Pages](https://www.youtube.com/watch?v=SrmeMP6_I8A)**
+
 You wanna show your work to your friends. While codepen is good for this, it's more for your developer buddies. For the general public, you wanna host the code somewhere.
 
 Github is the first entry point you should think of when hosting your basic frontend code.
@@ -200,4 +206,16 @@ You should see your site live within a few minutes in this new address.
 
 ![](./images/16.png)
 
+After a few minutes, you should see this turn green and your site will be ready to the public:
+
+![](./images/17.png)
+
 Setup github pages and you can have your work ready for the world to see in this new address.
+
+## What's Next?
+
+If you learned something new from this page, please do [mention me on Twitter](https://twitter.com/tamalweb) and tell me what other things you would like to learn. This will help me further build this page.
+
+[Check out my new YouTube channel](https://www.youtube.com/channel/UCEJ2rjHEplRyatAqWPWp2QQ) where I am publishing video versions of all these tips above.
+
+My goal as a web developer advocate is to help you rock your development and reduce frustration.
