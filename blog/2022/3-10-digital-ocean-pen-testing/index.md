@@ -76,7 +76,7 @@ ssh root@<IP ADDRESS>
 
 Since I am not using an SSH key, it will warn me if I trust this remote machine.
 
-I will enter `y` to confirm I understand and trust this host.
+I will type in `yes` and press enter to confirm I understand and trust this host.
 
 Next, it will ask me for the password. This is the password I set in the droplet creation section (not my Digital Ocean account password).
 
