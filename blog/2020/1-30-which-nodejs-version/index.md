@@ -18,6 +18,22 @@ According to the Node JS blog, “If you are using Node.js in production use an 
 
 As I mentioned above, picking a Node version is not that of a big deal and you can always upgrade or downgrade versions when needed. If you are learning Node JS by following a tutorial, you can always check the version the instructor has used. You will be safe using a version that is higher than the version used by the instructor.
 
+### Update: Node 18 adds Browswer fetch API
+
+The latest Node 18 (current) version supports the addition of fetch API. This update further makes the syntax of browser JavaScript and Node.js uniformed. Here's how to use `fetch` in Node:
+
+```js
+const res = await fetch('https://nodejs.org/api/documentation.json');
+if (res.ok) {
+  const data = await res.json();
+  console.log(data);
+}
+```
+
+Other than `fetch` it also exposes all the related Web API globals like `FormData`, `Headers`, `Request`, and `Response`.
+
+If you would like to get your hands on trying out fetch, you can use NVM to install multiple versions of Node (explained later in this post).
+
 Now that you know which version to pick when working with Node JS, let me tell you a bit more about the Node version lifecycle.
 
 ## What is Node LTS?
