@@ -23,14 +23,14 @@ As I mentioned above, picking a Node version is not that of a big deal and you c
 The latest Node 18 (current) version supports the addition of fetch API. This update further makes the syntax of browser JavaScript and Node.js uniformed. Here's how to use `fetch` in Node:
 
 ```js
-const res = await fetch('https://nodejs.org/api/documentation.json');
+const res = await fetch('https://nodejs.org/api/documentation.json')
 if (res.ok) {
-  const data = await res.json();
-  console.log(data);
+  const data = await res.json()
+  console.log(data)
 }
 ```
 
-Other than `fetch` it also exposes all the related Web API globals like `FormData`, `Headers`, `Request`, and `Response`.
+Other than `fetch` it also exposes all the related Web API globals like `FormData`, `Headers`, `Request`, and `Response` (Nodejs, 2022).
 
 If you would like to get your hands on trying out fetch, you can use NVM to install multiple versions of Node (explained later in this post).
 
@@ -176,3 +176,4 @@ Node JS has two different audiences, the regular developers (us) and the open-so
 3. Cyren, T. (2017). 5 Fantastic Features Shipping with Node.js 8 LTS. Retrieved January 30, 2020, from https://nodesource.com/blog/five-fantastic-features-shipping-with-node-js-8-lts-carbon
 4. Node.js. (2018). October Brings Node.js 10.x to LTS and Node.js 11 to Current! Retrieved January 30, 2020, from https://medium.com/@nodejs/october-brings-node-js-10-x-to-lts-and-node-js-11-to-current-ae19f8f12b51
 5. Node.js. (2019). Announcing core Node.js support for ECMAScript modules. Retrieved January 30, 2020, from https://medium.com/@nodejs/announcing-core-node-js-support-for-ecmascript-modules-c5d6dc29b663
+6. Node.js. (2022). Node.js 18 is now available!. Retrieved April 20, 2022, from https://nodejs.org/en/blog/announcements/v18-release-announce/
