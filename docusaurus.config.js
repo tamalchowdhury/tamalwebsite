@@ -79,11 +79,6 @@ const config = {
             to: '/portfolio',
             position: 'left',
           },
-          // {
-          //   label: 'Work With Me',
-          //   to: '/work-with-me',
-          //   position: 'left',
-          // },
           {
             label: 'Archive',
             to: '/archive',
@@ -95,23 +90,18 @@ const config = {
             position: 'left',
           },
           {
-            label: 'Contact',
-            to: '/contact',
-            position: 'left',
-          },
-          {
             href: 'https://twitter.com/tamalweb',
             label: 'Twitter',
             position: 'right',
           },
           {
-            href: 'https://www.youtube.com/channel/UCEJ2rjHEplRyatAqWPWp2QQ',
-            label: 'YouTube',
+            href: 'https://linkedin.com/in/tamalweb',
+            label: 'Linkedin',
             position: 'right',
           },
           {
-            href: 'https://linkedin.com/in/tamalweb',
-            label: 'Linkedin',
+            label: 'Hire Me',
+            to: '/hire',
             position: 'right',
           },
         ],
@@ -144,6 +134,10 @@ const config = {
           {
             title: 'Projects',
             items: [
+              {
+                label: 'MySocial',
+                href: 'https://mysoci.al',
+              },
               {
                 label: 'Reaction Poll',
                 href: 'https://reactionpoll.com',
@@ -180,6 +174,10 @@ const config = {
               {
                 label: 'Linkedin',
                 href: 'https://linkedin.com/in/tamalweb',
+              },
+              {
+                label: 'Hire Me',
+                to: '/hire',
               },
             ],
           },
