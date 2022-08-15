@@ -3,6 +3,7 @@ title: How to Setup a Local Web Development Environment
 slug: setup-local-dev-environment
 authors: tamalweb
 tags: []
+draft: true
 ---
 
 A local development environment is where all the development happens, after which devs push it to a live production server. In this article, you will set up a local web development environment on your computer.
