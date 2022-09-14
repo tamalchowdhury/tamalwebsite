@@ -192,8 +192,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} TamalWeb, Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require('prism-react-renderer/themes/vsDark'),
+        darkTheme: require('prism-react-renderer/themes/vsDark'),
       },
     }),
 }
