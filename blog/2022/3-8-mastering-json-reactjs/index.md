@@ -282,3 +282,5 @@ To recap what we learned in this post,
 - Convert JSON string to object using `JSON.parse()`
 - Convert a data object into JSON string with `JSON.stringify()`
 - Create React App can automatically convert a json to object when you import a .json file
+
+**Read Next: [Best Practices on How to Compress Images For Reactjs](./compress-images-reactjs)**
