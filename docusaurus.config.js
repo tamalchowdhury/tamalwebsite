@@ -52,7 +52,7 @@ const config = {
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           // Please change this to your repo.
-          editUrl: 'https://github.com/tamalweb/tamalwebsite/tree/master',
+          editUrl: 'https://github.com/tamalchowdhury/tamalwebsite/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -97,18 +97,18 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://twitter.com/tamalweb',
+            href: 'https://twitter.com/tamalchow',
             label: 'Twitter',
             position: 'right',
           },
           {
-            href: 'https://linkedin.com/in/tamalweb',
+            href: 'https://linkedin.com/in/tamalchowdhury',
             label: 'Linkedin',
             position: 'right',
           },
           {
-            label: 'Hire Me',
-            to: '/hire',
+            label: 'New Site',
+            href: 'https://tamalchowdhury.com',
             position: 'right',
           },
         ],
@@ -168,7 +168,7 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/tamalweb',
+                href: 'https://twitter.com/tamalchow',
               },
               {
                 label: 'YouTube',
@@ -176,15 +176,15 @@ const config = {
               },
               {
                 label: 'Github',
-                href: 'https://github.com/tamalweb',
+                href: 'https://github.com/tamalchowdhury',
               },
               {
                 label: 'Linkedin',
-                href: 'https://linkedin.com/in/tamalweb',
+                href: 'https://linkedin.com/in/tamalchowdhury',
               },
               {
-                label: 'Hire Me',
-                to: '/hire',
+                label: 'TamalChowdhury.com',
+                href: 'https://tamalchowdhury.com',
               },
             ],
           },
