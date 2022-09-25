@@ -214,7 +214,7 @@ Setup github pages and you can have your work ready for the world to see in this
 
 ## What's Next?
 
-If you learned something new from this page, please do [mention me on Twitter](https://twitter.com/tamalweb) and tell me what other things you would like to learn. This will help me further build this page.
+If you learned something new from this page, please do [mention me on Twitter](https://twitter.com/tamalchowdhury) and tell me what other things you would like to learn. This will help me further build this page.
 
 [Check out my new YouTube channel](https://www.youtube.com/channel/UCEJ2rjHEplRyatAqWPWp2QQ) where I am publishing video versions of all these tips above.
 
