@@ -25,7 +25,7 @@ All the blog posts are written in a [unique flavor of Markdown, MDX](https://mdx
 
 For the blog post meta, there is this special **front-matter** syntax you can use. The front matter handles the title, slug, tags, and author information.
 
-```mdx
+```mdx title=blog/2022/3-8-mastering-json-reactjs/index.md
 ---
 title: Mastering JSON in ReactJS
 slug: json-reactjs
@@ -33,11 +33,13 @@ authors: tamalweb
 tags: [reactjs]
 image: ./images/feature.png
 ---
+
+Rest of the article goes here...
 ```
 
 Since I am the only author of this blog, I set my info into the `authors.yml` file. Whenever I set this author username, it will call what's in the yaml file.
 
-```yml
+```yml title=blog/autors.yml
 tamalweb:
   name: Tamal Chowdhury
   title: Software Engineer

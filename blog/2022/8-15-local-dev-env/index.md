@@ -30,7 +30,7 @@ After downloading the Node LTS, open the installer and follow the installer step
 
 To verify your node installation, open your terminal or PowerShell in Windows and type the following command:
 
-```bash
+```sh
 node -v
 ```
 
