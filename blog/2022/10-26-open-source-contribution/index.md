@@ -2,7 +2,7 @@
 title: How to Contribute to Open Source for First Timers
 slug: contribute-open-source
 authors: tamalweb
-image: img/hacktoberfestog.png
+image: ./img/hacktoberfestog.png
 tags: [open source, javascript]
 ---
 
