@@ -58,7 +58,7 @@ Below, you will find a few of my low-effort contributions to get an idea of what
 
 Now let me show you how you can contribute to open source using the GitHub web interface,
 
-## How To Contribute with the GitHub Web Interface
+## How to Contribute with the GitHub Web Interface
 
 GitHub's web interface is excellent for contributing to open source when you are just getting started. You can fork projects, make pull requests, comment, upload files, and many more. If you are just starting out like me, you should definitely give the web interface a shot. The [contributing guideline from cdnjs](https://github.com/cdnjs/packages/blob/master/CONTRIBUTING.md#make-changes-to-your-fork) even encourages people to contribute a package using the web interface when making a single commit.
 
