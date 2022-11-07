@@ -13,7 +13,7 @@ The best part is, all the pages are statically generated and they load up instan
 
 I set up a demo site following the instructions and one by one, copied all the posts from my WordPress blog to the new docusaurus site.
 
-I could have saved this time by automating this process. [John Reilly](https://twitter.com/johnny_reilly) has a guide on [how to automate this process with a typescript script](https://blog.johnnyreilly.com/2021/03/15/from-blogger-to-docusaurus). His method is to export your blog in XML format (WordPress also does that) and then import them to Docusaurs with a script written in TypeScript.
+I could have saved this time by automating this process. [John Reilly](https://twitter.com/johnny_reilly) has a guide on [how to automate this process with a TypeScript script](https://blog.johnnyreilly.com/definitive-guide-to-migrating-from-blogger-to-docusaurus). His method is to export your blog in XML format (WordPress also does that) and then import them to Docusaurus with a script written in TypeScript.
 
 When creating a docusaurus site, your articles will be stored in a directory like this:
 
