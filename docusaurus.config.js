@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TamalWeb',
+  title: 'TamalWeb by Tamal Chowdhury',
   tagline: 'Helping you become a dangerous frontend engineer',
   url: 'https://tamalweb.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'tamalweb', // Usually your GitHub org/user name.
+  organizationName: 'tamalchowdhury', // Usually your GitHub org/user name.
   projectName: 'tamalwebsite', // Usually your repo name.
 
   scripts: [
@@ -43,7 +43,7 @@ const config = {
           blogTitle:
             'TamalWeb, Frontend Engineer, Reactjs Technical Writer, Developer Advocate',
           blogDescription:
-            'Read articles, and learn best practices about ReactJS, NodeJS, be a great web dev. Contact or hire Tamal for your next project',
+            'Read articles, and learn best practices about ReactJS, NodeJS, be a great web dev. Contact or hire Tamal Chowdhury',
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} TamalWeb`,
@@ -107,7 +107,7 @@ const config = {
             position: 'right',
           },
           {
-            label: 'New Site',
+            label: 'Resume',
             href: 'https://tamalchowdhury.com',
             position: 'right',
           },
@@ -146,20 +146,20 @@ const config = {
                 href: 'https://mysoci.al',
               },
               {
-                label: 'Reaction Poll',
-                href: 'https://reactionpoll.com',
-              },
-              {
-                label: 'Periodic Table',
-                href: 'https://periodictable.website',
-              },
-              {
                 label: 'Cashout Charge',
                 href: 'https://cashoutcharge.com',
               },
               {
-                label: 'Hide YouTube Endscreen',
+                label: 'Periodic Table',
+                href: 'https://periodictableonline.netlify.app/',
+              },
+              {
+                label: 'Hide YouTube End Cards',
                 href: 'https://chrome.google.com/webstore/detail/hide-youtube-endscreen/ifmbbceocmponbpifmpkkhnidmgopmmf?hl=en',
+              },
+              {
+                label: 'Reaction Poll',
+                href: 'https://reactionpoll.com',
               },
             ],
           },
@@ -172,7 +172,7 @@ const config = {
               },
               {
                 label: 'YouTube',
-                href: 'https://www.youtube.com/channel/UCEJ2rjHEplRyatAqWPWp2QQ',
+                href: 'https://www.youtube.com/@tamalchowdhury',
               },
               {
                 label: 'Github',
@@ -183,7 +183,7 @@ const config = {
                 href: 'https://linkedin.com/in/tamalchowdhury',
               },
               {
-                label: 'TamalChowdhury.com',
+                label: 'Resume',
                 href: 'https://tamalchowdhury.com',
               },
             ],
