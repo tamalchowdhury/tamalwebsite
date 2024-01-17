@@ -10,7 +10,7 @@ Today I am going to help you pick the correct version of Node JS to use. When yo
 
 ![featured](./images/featured.png)
 
-Which Node JS version to use? **16 LTS. You should always use even-numbered versions marked LTS that says “Recommended for Most Users” on the download page. An even number Node version is 14.x.x LTS, 16.x.x LTS, 18.x.x LTS and so on that you should use when learning or deploying your project to a production environment.**
+Which Node JS version to use? **20 LTS. You should always use even-numbered versions marked LTS that says “Recommended for Most Users” on the download page. An even number Node version is 16.x.x LTS, 18.x.x LTS, 20.x.x LTS and so on that you should use when learning or deploying your project to a production environment.**
 
 <!-- truncate -->
 
@@ -18,21 +18,9 @@ According to the Node JS blog, “If you are using Node.js in production use an 
 
 As I mentioned above, picking a Node version is not that of a big deal and you can always upgrade or downgrade versions when needed. If you are learning Node JS by following a tutorial, you can always check the version the instructor has used. You will be safe using a version that is higher than the version used by the instructor.
 
-### Update: Node 18 adds Browswer fetch API
+### Update: Node 20 improves the test runner
 
-The latest Node 18 (current) version supports the addition of fetch API. This update further makes the syntax of browser JavaScript and Node.js uniformed. Here's how to use `fetch` in Node:
-
-```js
-const res = await fetch('https://nodejs.org/api/documentation.json')
-if (res.ok) {
-  const data = await res.json()
-  console.log(data)
-}
-```
-
-Other than `fetch` it also exposes all the related Web API globals like `FormData`, `Headers`, `Request`, and `Response` (Nodejs, 2022).
-
-If you would like to get your hands on trying out fetch, you can use NVM to install multiple versions of Node (explained later in this post).
+The recent update to Node.js, version 20, includes an important change to the test_runner module. The module has been marked as stable after a recent update. 
 
 Now that you know which version to pick when working with Node JS, let me tell you a bit more about the Node version lifecycle.
 
@@ -60,10 +48,10 @@ After the first 6 months have passed and library vendors have enough time to tes
 
 This LTS version will be further supported by the Open JS foundation for the next 30 months (2 and a half years). So if you are building a production application, you will get support for it for the next two years and more. The LTS version guarantees that the software will be maintained and critical bugs will be fixed during this period of time. The Node JS website states that “Production applications should only use Active LTS or Maintenance LTS releases” (Node JS org, 2020).
 
-This all means that if today you start learning with Node JS 16, you are good to deploy a production app with this version till March 2024.
+This all means that if today you start learning with Node JS 20, you are good to deploy a production app with this version till April 2026.
 
 :::tip
-If today you start learning with Node JS 16, you are good to deploy a production app with this version till March 2024
+If today you start learning with Node JS 20, you are good to deploy a production app with this version till April 2026
 :::
 
 ## What goes into major Node releases?
@@ -102,6 +90,22 @@ fs is a built-in module in Node for reading and writing to the file system. In t
 ### Node 12 implemented ES6 modules
 
 If you worked with both React and Node, you will notice that in Node, you use the require method to include a module, while in React you use import to do the same. This is because Node JS is still behind when it comes to implementing the latest and greatest JavaScript features. Node 12 introduced experimental use of import and export modules (Node blog, 2019) and I am sure by the time you use Node 14 and up, it will be able to use it with no issues.
+
+### Node 18 adds Browswer fetch API
+
+Node 18 version supports the addition of fetch API. This update further makes the syntax of browser JavaScript and Node.js uniformed. Here's how to use `fetch` in Node:
+
+```js
+const res = await fetch('https://nodejs.org/api/documentation.json')
+if (res.ok) {
+  const data = await res.json()
+  console.log(data)
+}
+```
+
+Other than `fetch` it also exposes all the related Web API globals like `FormData`, `Headers`, `Request`, and `Response` (Nodejs, 2022).
+
+If you would like to get your hands on trying out fetch, you can use NVM to install multiple versions of Node (explained later in this post).
 
 ## Can I install multiple Node versions on my computer?
 
